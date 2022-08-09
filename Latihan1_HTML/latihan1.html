@@ -4,15 +4,55 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Latihan 1</title>
-    <style>
-        table, th, td {
-          border: 1px solid black;
-          border-collapse: collapse;
-        }
-        </style>
 </head>
+
+<h2>Menggunakan Border</h2>
 <body>
-    <table>
+    <table border="1" cellpadding="5" cellspacing="0">
+        <tr>
+            <td>Text:</td>
+            <td><input type="text"></td>
+        </tr>
+        <tr>
+            <td>Password:</td>
+            <td><input type="password"></td>
+        </tr>
+        <tr>
+            <td align="center" colspan="2">
+                Radio 1<input type="radio">
+                Radio 2<input type="radio">
+            </td>
+        </tr>
+        <tr>
+            <td align="center" colspan="2">
+                Checkbox 1<input type="checkbox">
+                Checkbox 2<input type="checkbox">
+            </td>
+        </tr>
+        <tr>
+            <td align="center" colspan="2">
+                <label>Combo Box:</label>
+          
+                <select>
+                    <option>option 1</option>
+                    <option>option 2</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>Text Area:</td>
+            <td><textarea name="biografi"></textarea></td>
+        </tr>
+        <tr>
+            <td align="center" colspan="2">
+                <button type="button">Button</button>
+            </td>
+        </tr>
+    </table>
+
+    <h2>Tanpa Border</h2>
+
+    <table class="tabel-2" cellspacing="2">
         <tr>
             <td>Text:</td>
             <td><input type="text"></td>
